@@ -1,6 +1,6 @@
 let alis=Array.from(document.querySelectorAll(".project1 ul li"))  
 console.log(alis)
-let viewedfeature=Array.from(document.querySelectorAll(".project1 .view")) 
+let viewedfeature=Array.from(document.querySelectorAll(".project1 .progress-container")) 
 console.log(viewedfeature)
 alis.forEach((li)=>{
 li.addEventListener(("click"),(e)=>{
@@ -19,7 +19,7 @@ view.classList.remove("active")
 const fun=()=>{
     let alis=Array.from(document.querySelectorAll(".project2 ul li"))  
     console.log(alis)
-    let viewedfeature=Array.from(document.querySelectorAll(".project2 .view2")) 
+    let viewedfeature=Array.from(document.querySelectorAll(".project2 .progress-container2")) 
     console.log(viewedfeature)
     alis.forEach((li)=>{
     li.addEventListener(("click"),(e)=>{
@@ -39,7 +39,7 @@ fun()
 const fun3=()=>{
     let alis=Array.from(document.querySelectorAll(".project3 ul li"))  
     console.log(alis)
-    let viewedfeature=Array.from(document.querySelectorAll(".project3 .view3")) 
+    let viewedfeature=Array.from(document.querySelectorAll(".project3 .progress-container3")) 
     console.log(viewedfeature)
     alis.forEach((li)=>{
     li.addEventListener(("click"),(e)=>{

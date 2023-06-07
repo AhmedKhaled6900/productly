@@ -187,24 +187,24 @@ li{
   cursor: pointer;
   color: #555;
 }
-.view{
+.progress-container{
   display: none;
 }
-.view.active{
+.progress-container.active{
   display: block;
   min-height: 180px;
 }
-.view2{
+.progress-container2{
   display: none;
 }
-.view2.active{
+.progress-container2.active{
   display: block;
   min-height: 180px;
 }
-.view3{
+.progress-container3{
   display: none;
 }
-.view3.active{
+.progress-container3.active{
   display: block;
   min-height: 180px;
 }
@@ -213,11 +213,22 @@ li{
   color: black;
   border-right: 2px solid black;
 }
+
+.over3 h6{
+  padding: 10px;
+  background-color:#ada79d ;
+}
+.over2 h6{
+  padding: 10px;
+  background-color:#ada79d ;
+}
 .over h6{
   padding: 10px;
   background-color:#ada79d ;
 }
-.project1{
+.project1 ,
+.project2,
+.project3{
   border-bottom: 1px solid black;
 
 }
