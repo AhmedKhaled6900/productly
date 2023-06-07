@@ -201,6 +201,13 @@ li{
   display: block;
   min-height: 180px;
 }
+.view3{
+  display: none;
+}
+.view3.active{
+  display: block;
+  min-height: 180px;
+}
 .alis.active{
   border-bottom: 2px solid black;
   color: black;
