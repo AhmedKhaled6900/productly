@@ -1,0 +1,219 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Impact,  'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-collapse ul a:hover{
+color: wheat;
+}
+
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.main-btn{
+  outline: none;
+  background-color: #2cb945;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 20px;
+  width:fit-content;
+  
+  ;
+
+}
+.signbtns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-btn:hover{
+color: whitesmoke;
+background-color: #146c43;
+box-shadow: 0 0 .3rem #146c43;
+
+}
+
+.nav-item{
+  font-size: larger;
+  margin: 15px;
+  text-align: center;
+  color: black;
+}
+.nav-item:hover{
+  background-color:#146c43 ;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+/* .nav-item .active{
+  background-color:#146c43 ;
+  border-radius: 20px;
+  color: wheat;
+} */
+.itemsdiv{
+background-image: url("/imgs/shape.png");
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+.textsdivs{
+  border-bottom: 1px solid  #d1cdd3;
+  margin-top: 20px;
+}
+.effotrssection h2
+{
+  color: darkblue;
+}
+.textcontent p{
+  margin: 0 0 0 10px;
+}
+.textcontent h2{
+color: darkblue;}
+
+.supersction button{
+  width: fit-content;
+  margin: auto;
+}
+footer{
+  background-color: black;
+} 
+footer ul {
+  padding: 0;
+}
+footer ul li{
+  list-style: none;
+
+  text-decoration: none;
+}
+footer a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+footer p{
+  color: #146c43;
+  font-size: larger;
+}
+.marketertext h2{
+  color: darkblue;
+}
+.stratigesheading h2{
+  color: darkblue;
+}
+.card h2{
+  color: darkblue;
+}
+/* body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: 20px;
+  scrollbar-color: black,darkblue;
+}
+body::-webkit-scrollbar-track {
+  background:black;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkblue ;
+  border-radius: 6px;
+  border: 3px solid darkblue;
+} */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:linear-gradient(180deg, red, black); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.html{
+  background-color: #a7a8a8;
+  display: block;
+  height: 100%;
+
+  border-radius: 5px;
+}
+.css{
+  background-color: #a7a8a8;
+  display: block;
+  height: 100%;
+  
+
+  border-radius: 5px;
+}
+.js{
+  background-color: #a7a8a8;
+  display: block;
+  height: 100%;
+
+  border-radius: 5px;
+}
+/* .progress{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+} */
+.progress{
+  display: flex;
+    align-items: baseline;
+    gap: 14px;
+}
+
+ul{
+  /* justify-content: space-between; */
+  padding: 0;
+}
+li{
+  list-style: none;
+  /* padding:0 10px 0 ; */
+  width: 33.33333%;
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+}
+.view{
+  display: none;
+}
+.view.active{
+  display: block;
+  min-height: 180px;
+}
+.view2{
+  display: none;
+}
+.view2.active{
+  display: block;
+  min-height: 180px;
+}
+.alis.active{
+  border-bottom: 2px solid black;
+  color: black;
+  border-right: 2px solid black;
+}
+.over h6{
+  padding: 10px;
+  background-color:#ada79d ;
+}
+.project1{
+  border-bottom: 1px solid black;
+
+}
+.circle{
+  height: 50px;
+}
